@@ -12,7 +12,7 @@ function App() {
     <h2 class="accordion-header" id="headingOneY">
       <button class="accordion-button" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#collapseOneY" aria-expanded="true" aria-controls="collapseOneY">
-        <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Accordion Item #1
+        <i class="fa-solid fa-circle-question"></i>Accordion Item #1
       </button>
     </h2>
     <div id="collapseOneY" class="accordion-collapse collapse show" aria-labelledby="headingOneY"
@@ -52,8 +52,7 @@ function App() {
     <h2 class="accordion-header" id="headingThreeY">
       <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#collapseThreeY" aria-expanded="false" aria-controls="collapseThreeY">
-          <i class="fa fa-question-circle" aria-hidden="true"></i>
-        {/* <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Accordion Item #3 */}
+        <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Accordion Item #3
       </button>
     </h2>
     <div id="collapseThreeY" class="accordion-collapse collapse" aria-labelledby="headingThreeY"
@@ -69,7 +68,21 @@ function App() {
       </div>
     </div>
   </div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
 </div>
+</div>
+
   );
 }
 
