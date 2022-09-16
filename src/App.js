@@ -52,7 +52,8 @@ function App() {
     <h2 class="accordion-header" id="headingThreeY">
       <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#collapseThreeY" aria-expanded="false" aria-controls="collapseThreeY">
-        <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Accordion Item #3
+          <i class="fa fa-question-circle" aria-hidden="true"></i>
+        {/* <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Accordion Item #3 */}
       </button>
     </h2>
     <div id="collapseThreeY" class="accordion-collapse collapse" aria-labelledby="headingThreeY"
