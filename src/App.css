@@ -11,7 +11,7 @@ body {
 .main-heading,
 .subheading,
 .body-text {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .main-heading, .subheading {
@@ -27,6 +27,6 @@ body {
 }
 
 .body-text {
-  font-size: 1.2rem;
-  color: rgb(60, 60, 71);
+  font-size: 1rem;
+  color: #615d6d;
 }
