@@ -64,7 +64,7 @@ function FAQs() {
               aria-controls="collapseTwoY"
             >
               <i className="fas fa-question-circle fa-sm me-2 opacity-70"></i>
-              Accordion Item #2
+              What is the typical class size?
             </button>
           </h2>
           <div
@@ -74,14 +74,7 @@ function FAQs() {
             data-mdb-parent="#accordionExampleY"
           >
             <div className="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees
-              control the overall appearance, as well as the showing and hiding
-              via CSS transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+            At full capacity, we can accommodate 16 people in our Main Kitchens. Currently our couples classes are capped at 12 and open enrollment classes at 14.
             </div>
           </div>
         </div>
@@ -96,7 +89,7 @@ function FAQs() {
               aria-controls="collapseThreeY"
             >
               <i className="fas fa-question-circle fa-sm me-2 opacity-70"></i>
-              Accordion Item #3
+              Who will be at my table with me? 
             </button>
           </h2>
           <div
@@ -106,14 +99,32 @@ function FAQs() {
             data-mdb-parent="#accordionExampleY"
           >
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees
-              control the overall appearance, as well as the showing and hiding
-              via CSS transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Depending upon capacity restrictions, our tables are set up into two teams of 6 or 7 students who share in making the recipes.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFourY">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#collapseFourY"
+              aria-expanded="false"
+              aria-controls="collapseFourY"
+            >
+              <i className="fas fa-question-circle fa-sm me-2 opacity-70"></i>
+              Will I make all my own recipes? 
+            </button>
+          </h2>
+          <div
+            id="collapseFourY"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingFourY"
+            data-mdb-parent="#accordionExampleY"
+          >
+            <div className="accordion-body">
+            Our classes are designed to give you the full hands-on experience. In a <strong>Techniques</strong> class, everyone will be able to make a version of the recipe on which that class is based. For example: in techniques classes like Paella, Crepes, Sushi, or Pies 101, all students will get hands-on experience in these recipes. All <strong>Menu-Based</strong> classes, on the other hand, are <strong><u>collaborative</u></strong> with students sharing in the preparation of an overall menu that they sit down and enjoy together in the end.
             </div>
           </div>
         </div>
