@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import logo from '../../images/Logo_Mexican_Seafood.bmp';
 
 function Header() {
   return (
@@ -12,6 +13,7 @@ function Header() {
         own multicultural fusion food in a healthy and sustainable way with
         guidance from a experienced chef pilot.
       </p>
+      <img src={logo} alt="Logo of Mexican Seafood" className="logo" />
     </section>
   );
 }

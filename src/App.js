@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo192.png";
 import "./App.css";
 
 // Material Design Bootstrap
@@ -8,6 +8,7 @@ import { Input } from "mdb-ui-kit"; // module
 // Components
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
+import Flier from "./components/Flier/Flier";
 import FAQs from "./components/FAQs/FAQs";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <div className="row">
           <div className="col">
             <Header />
+            <Flier />
             <FAQs />
           </div>
         </div>

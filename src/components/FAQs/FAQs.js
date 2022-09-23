@@ -4,6 +4,7 @@ import "./FAQs.css";
 function FAQs() {
   return (
     <section className="section">
+    <h1 className="main-heading">FAQs</h1>
       <div className="accordion" id="accordionExampleY">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOneY">
