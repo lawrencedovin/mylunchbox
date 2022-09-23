@@ -21,7 +21,13 @@ function App() {
           <div className="col">
             <Header />
             <Flier />
-            <Signup />
+          </div>
+        </div>
+      </div>
+      <Signup />
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <FAQs />
           </div>
         </div>
