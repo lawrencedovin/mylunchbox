@@ -4,14 +4,6 @@ import "./FAQs.css";
 function FAQs() {
   return (
     <section className="section">
-      <h1 className="main-heading">FAQs</h1>
-      <h2 className="subheading">4-Part Series</h2>
-      <p className="body-text">
-        How to time travel Baltimore ➡️ Mexico on your plate for lunch hour
-        without paying for jet fuel! Save money, time and energy and create your
-        own multicultural fusion food in a healthy and sustainable way with
-        guidance from a experienced chef pilot.
-      </p>
       <div className="accordion" id="accordionExampleY">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOneY">
@@ -198,12 +190,16 @@ function FAQs() {
               For minors ages 8-17, please check out our
               <a href="https://www.baltimorechefshop.com/cooking-classes?category=For%20Kids">
                 {" "}
-                <strong><u>Parent & Me classes</u></strong>{" "}
+                <strong>
+                  <u>Parent & Me classes</u>
+                </strong>{" "}
               </a>
               and our
               <a href="https://www.baltimorechefshop.com/summer-camps/">
                 {" "}
-                <strong><u>Summer Culinary Camps</u></strong>{" "}
+                <strong>
+                  <u>Summer Culinary Camps</u>
+                </strong>{" "}
               </a>
               for options catered for your emerging chef. Standard classes are
               for ages 18+. For safety purposes, kids age 7 and under, including
@@ -305,7 +301,8 @@ function FAQs() {
           >
             <div className="accordion-body">
               <p>
-                Yes! Students are permitted to take home their leftovers. We will have take-out containers for you.
+                Yes! Students are permitted to take home their leftovers. We
+                will have take-out containers for you.
               </p>
             </div>
           </div>
@@ -332,7 +329,11 @@ function FAQs() {
           >
             <div className="accordion-body">
               <p>
-                There is metered street parking out front and free street parking both north and south of 36th Street. We are on 'The Avenue' in Hampden, an area that can become quite busy in the evenings and on the weekends, so we do recommend that you plan accordingly.
+                There is metered street parking out front and free street
+                parking both north and south of 36th Street. We are on 'The
+                Avenue' in Hampden, an area that can become quite busy in the
+                evenings and on the weekends, so we do recommend that you plan
+                accordingly.
               </p>
             </div>
           </div>
@@ -348,7 +349,8 @@ function FAQs() {
               aria-controls="collapseTenY"
             >
               <i className="fas fa-question-circle fa-sm me-2 opacity-70"></i>
-              If I have a food aversion or an allergy, can the menu be altered for me?
+              If I have a food aversion or an allergy, can the menu be altered
+              for me?
             </button>
           </h2>
           <div
@@ -359,10 +361,24 @@ function FAQs() {
           >
             <div className="accordion-body">
               <p>
-                As our menu-based classes are collaborative, we do not alter recipes for a particular aversion or allergy since this will prevent the other clients from enjoying the dish as it is meant to be prepared. Because of our class structure, we ask our students to self-monitor for aversions or sensitivities and avoid eating the particular dish with that ingredient or to remove it from your own portion, if the dish allows. Better yet, since this is meant to be a fun learning environment, we strongly suggest that you select a menu that accommodates your particular allergies.
+                As our menu-based classes are collaborative, we do not alter
+                recipes for a particular aversion or allergy since this will
+                prevent the other clients from enjoying the dish as it is meant
+                to be prepared. Because of our class structure, we ask our
+                students to self-monitor for aversions or sensitivities and
+                avoid eating the particular dish with that ingredient or to
+                remove it from your own portion, if the dish allows. Better yet,
+                since this is meant to be a fun learning environment, we
+                strongly suggest that you select a menu that accommodates your
+                particular allergies.
               </p>
               <p>
-                <i>Please be advised that, in the case of <strong>severe nut or gluten allergies</strong>, we are not a nut-free nor gluten-free kitchen and cross contamination from other classes cannot be safely avoided.</i>
+                <i>
+                  Please be advised that, in the case of{" "}
+                  <strong>severe nut or gluten allergies</strong>, we are not a
+                  nut-free nor gluten-free kitchen and cross contamination from
+                  other classes cannot be safely avoided.
+                </i>
               </p>
             </div>
           </div>
@@ -389,7 +405,60 @@ function FAQs() {
           >
             <div className="accordion-body">
               <p>
-                Yes! We would love to host you and your guests for a private cooking class. If you would like to schedule a class, please head to our <a href="https://www.baltimorechefshop.com/private-classes-and-events"><strong><u>Private Group Classes</u></strong></a> page for booking and pricing options.
+                Yes! We would love to host you and your guests for a private
+                cooking class. If you would like to schedule a class, please
+                head to our{" "}
+                <a href="https://www.baltimorechefshop.com/private-classes-and-events">
+                  <strong>
+                    <u>Private Group Classes</u>
+                  </strong>
+                </a>{" "}
+                page for booking and pricing options.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwelveY">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#collapseTwelveY"
+              aria-expanded="false"
+              aria-controls="collapseTwelveY"
+            >
+              <i className="fas fa-question-circle fa-sm me-2 opacity-70"></i>
+              What is your storm weather policy?
+            </button>
+          </h2>
+          <div
+            id="collapseTwelveY"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingTwelveY"
+            data-mdb-parent="#accordionExampleY"
+          >
+            <div className="accordion-body">
+              <p>
+                Baltimore Chef Shop will often follow Baltimore City closings,
+                as well as information gathered by the National Weather Service;
+                however, there are occasions where we make an exception.
+                Cancellations due to weather are always in the interest of the
+                safety and well-being of our staff and our clients.
+              </p>
+              <p>
+                In the event of class cancellations due to inclement weather, we
+                will send out an email notification and post an announcement on
+                our Facebook page. Announcements will be posted at least one
+                hour before the class start time if the class is cancelled.
+                Please do not feel obligated to travel to class if you are
+                uncomfortable with the weather conditions.
+              </p>
+              <p>
+                Baltimore Chef Shop is not able to schedule make-up classes or
+                provide refunds for classes canceled due to inclement weather;
+                however, if we decide it is necessary to cancel a class, we will
+                assist you in transferring your enrollment to a future class.
               </p>
             </div>
           </div>

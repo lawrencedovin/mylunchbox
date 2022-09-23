@@ -7,6 +7,7 @@ import { Input } from "mdb-ui-kit"; // module
 
 // Components
 import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
 import FAQs from "./components/FAQs/FAQs";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col">
+            <Header />
             <FAQs />
           </div>
         </div>
