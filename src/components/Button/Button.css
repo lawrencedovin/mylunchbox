@@ -1,10 +1,8 @@
-.section--light {
-    background: #ebfaff;
-}
-
-.main-heading--dark {
-    color: #615d6d;
-}
-
-.calendly-widget {
+.btn {
+    background:#ffd900;
+    color: #28bff1;
+    width: 8rem;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
 }
