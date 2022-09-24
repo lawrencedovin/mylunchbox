@@ -10,7 +10,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Flier from "./components/Flier/Flier";
 import Signup from "./components/Signup/Signup";
+
 import FAQs from "./components/FAQs/FAQs";
+import Testimonials from "./components/Testimonials/Testimonials";
 import Button from "./components/Button/Button";
 
 function App() {
@@ -30,12 +32,10 @@ function App() {
         <div className="row">
           <div className="col">
             <FAQs />
-            <Button url="#signup" text="Sign Up">
-              <i class="fa-solid fa-arrow-up"></i>
-            </Button>
           </div>
         </div>
       </div>
+      <Testimonials />
     </>
   );
 }
