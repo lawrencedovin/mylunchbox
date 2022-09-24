@@ -12,6 +12,9 @@ function Testimonials() {
             <h1 className="main-heading main-heading--dark">
               Testimonials
             </h1>
+            <h2 className="subheading subheading--dark">
+              Self-Paced and Live Guided Cooking Class
+            </h2>
             <div
               id="carouselBasicExample"
               class="carousel slide carousel-dark"

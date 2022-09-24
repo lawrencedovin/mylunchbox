@@ -29,7 +29,8 @@ body {
   font-size: 2rem;
 }
 
-.main-heading--dark {
+.main-heading--dark,
+.subheading--dark {
   color: #40474c;
 }
 
