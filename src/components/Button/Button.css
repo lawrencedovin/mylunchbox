@@ -5,4 +5,9 @@
     display: block;
     margin-left:auto;
     margin-right:auto;
+    font-size: 1rem;
+}
+
+.btn-text {
+    margin-bottom: 0;
 }
