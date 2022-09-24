@@ -1,9 +1,6 @@
-.section--light {
-    background: #ebfaff;
-}
-
-.main-heading--dark {
-    color: #615d6d;
+.main-heading--signup {
+    margin-bottom: -76px;
+    text-align: center;
 }
 
 .calendly-widget {
