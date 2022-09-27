@@ -38,5 +38,26 @@
         "imageURL":
         "/images/live-and-guided-nora-klee.png",
         "isLocalImage": true
+    },
+    {
+        "id": "5",
+        "typeOfCookingClass": "live and guided",
+        "testimony":
+        "We had an absolute blast at the Handmade Pasta class! The instructor was fun, encouraging, and shared lots of other great cooking tips that we can use at home. Looking forward to taking more classes soon. Perfect way to spend a Saturday afternoon.",
+        "name": "Angela Balsamo",
+        "imageURL":
+        "/images/live-and-guided-angela-balsamo.png",
+        "isLocalImage": true
+    },
+    {
+        "id": "6",
+        "typeOfCookingClass": "live and guided",
+        "testimony":
+        "We took an online class to make a Jamaican beef patties meal. We purchased the ingredients kit and everything inside was fresh, flavorful, and clearly labeled. Chef Jeff was a fantastic teacher. I was a little nervous as I’m not very experienced, but Jeff met us where we were and answered everyone’s questions. I learned a lot and our meal was amazing! We will definitely be taking another class.",
+        "name": "Melissa Badeker",
+        "imageURL":
+        "/images/live-and-guided-melissa-badeker.png",
+        "isLocalImage": true
     }
   ]
+
