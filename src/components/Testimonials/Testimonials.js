@@ -1,10 +1,8 @@
 import React from "react";
 import "./Testimonials.css";
-import { InlineWidget } from "react-calendly";
 import Testimony from "../Testimony/Testimony";
 import Button from "../Button/Button";
 import testimonials from '../../data/testimonials.json';
-import logo from '../../images/Logo_Mexican_Seafood.bmp';
 
 function Testimonials() {
   return (

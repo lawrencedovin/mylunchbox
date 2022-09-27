@@ -1,11 +1,9 @@
 import React from "react";
 import "./Testimony.css";
-import { InlineWidget } from "react-calendly";
-import Button from "../Button/Button";
 
 function Testimony({id, typeOfCookingClass, testimony, name, imageURL, isLocalImage}) {
   return (
-    <div className={`carousel-item ${id === '1' ? "active" : ""}`} key={id}>
+    <div className={`carousel-item ${id === '1' ? "active" : ""}`}>
         { typeOfCookingClass === 'self-paced' 
         ? 
         <h2 className="subheading subheading--dark">
