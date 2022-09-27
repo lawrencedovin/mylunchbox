@@ -17,6 +17,10 @@
     color: #fff;
 }
 
+.footer__title--company {
+    margin-top: -.6rem;
+}
+
 .footer__logo {
     height: 40px;
     border-radius: 50px;
@@ -34,4 +38,13 @@
 
 .text-secondary {
     color: #fff !important;
+}
+
+.footer__text,
+.footer__link {
+    color: #40474c;
+}
+
+.footer__link:hover {
+    color: black;
 }
