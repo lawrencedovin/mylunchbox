@@ -16,17 +16,17 @@ function Testimony({id, typeOfCookingClass, testimony, name, imageURL, isLocalIm
           What people are saying about Live and Guided Cooking Classes
         </h2>
         }
-        <p class="lead font-italic mx-4 mx-md-5">
+        <p className="lead font-italic mx-4 mx-md-5">
           { testimony }
         </p>
-        <div class="mt-5 mb-4">
+        <div className="mt-5 mb-4">
           <img
             src={isLocalImage ? process.env.PUBLIC_URL + imageURL : imageURL}
-            class="rounded-circle img-fluid shadow-1-strong"
+            className="rounded-circle img-fluid shadow-1-strong"
             alt={`${name} testimony about ${typeOfCookingClass} cooking classes.`}
           />
         </div>
-        <p class="text-muted mb-0">-{name}</p>
+        <p className="text-muted mb-0">-{name}</p>
     </div>
   );
 }

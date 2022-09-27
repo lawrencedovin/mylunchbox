@@ -15,13 +15,14 @@ function Testimonials() {
             <h1 className="main-heading main-heading--dark">Testimonials</h1>
             <div
               id="carouselBasicExample"
-              class="carousel slide carousel-dark"
+              className="carousel slide carousel-dark"
               data-mdb-ride="carousel"
             >
-              <div class="carousel-inner">
+              <div className="carousel-inner">
                 {testimonials.map((testimony) => {
                   return (
                     <Testimony
+                      key={testimony.id}
                       id={testimony.id}
                       typeOfCookingClass={testimony.typeOfCookingClass}
                       testimony={testimony.testimony}
@@ -33,32 +34,32 @@ function Testimonials() {
                 })}
               </div>
               <button
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 type="button"
                 data-mdb-target="#carouselBasicExample"
                 data-mdb-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                className="carousel-control-next"
                 type="button"
                 data-mdb-target="#carouselBasicExample"
                 data-mdb-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Next</span>
+                <span className="visually-hidden">Next</span>
               </button>
             </div>
             <Button url="#signup" text="Sign Up">
-              <i class="fa-solid fa-arrow-up"></i>
+              <i className="fa-solid fa-arrow-up"></i>
             </Button>
           </div>
         </div>
