@@ -3,7 +3,7 @@ import "./Testimony.css";
 import { InlineWidget } from "react-calendly";
 import Button from "../Button/Button";
 
-function Testimony({id, typeOfCookingClass, testimony, name, imageURL}) {
+function Testimony({id, typeOfCookingClass, testimony, name, imageURL, isLocalImage}) {
   return (
     <div className={`carousel-item ${id === '1' ? "active" : ""}`} key={id}>
         { typeOfCookingClass === 'self-paced' 
@@ -21,9 +21,9 @@ function Testimony({id, typeOfCookingClass, testimony, name, imageURL}) {
         </p>
         <div class="mt-5 mb-4">
           <img
-            src={imageURL}
+            src={isLocalImage ? process.env.PUBLIC_URL + imageURL : imageURL}
             class="rounded-circle img-fluid shadow-1-strong"
-            alt={`${name} testimony about ${typeOfCookingClass}`}
+            alt={`${name} testimony about ${typeOfCookingClass} cooking classes.`}
           />
         </div>
         <p class="text-muted mb-0">-{name}</p>

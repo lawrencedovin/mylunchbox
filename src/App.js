@@ -18,6 +18,9 @@ import Button from "./components/Button/Button";
 function App() {
   return (
     <>
+    
+    <img src="images/live-and-guided-nora-klee.png" className="logo" height="100" width="100"/>
+    <img src={process.env.PUBLIC_URL + '/images/live-and-guided-nora-klee.png'} />
       {/* <Navbar /> */}
       <div className="container">
         <div className="row">
