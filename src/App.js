@@ -13,7 +13,7 @@ import Signup from "./components/Signup/Signup";
 
 import FAQs from "./components/FAQs/FAQs";
 import Testimonials from "./components/Testimonials/Testimonials";
-import Button from "./components/Button/Button";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -36,6 +36,7 @@ function App() {
         </div>
       </div>
       <Testimonials />
+      <Footer />
     </>
   );
 }

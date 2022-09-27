@@ -1,0 +1,37 @@
+.footer {
+    background:#B2BEB5;
+}
+.footer__social-btn {
+    width: 2.3125rem;
+}
+
+.footer__social-btn--facebook {
+    background: #3b5998;
+}
+
+.footer__social-btn--instagram {
+    background: #ac2bac;
+}
+
+.footer__title {
+    color: #fff;
+}
+
+.footer__logo {
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+.copy-right {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #fff !important;
+}
+
+.text-secondary {
+    color: #fff !important;
+}
