@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mylunchbox/static/css/main.dde66664.css",
-    "main.js": "/mylunchbox/static/js/main.1dbace45.js",
+    "main.css": "/mylunchbox/static/css/main.de5dc0c9.css",
+    "main.js": "/mylunchbox/static/js/main.c4cf7eee.js",
     "static/js/787.dffeb26c.chunk.js": "/mylunchbox/static/js/787.dffeb26c.chunk.js",
     "static/media/myLunchBox_Flier.bmp": "/mylunchbox/static/media/myLunchBox_Flier.0e9f7b3560dd42f52d7f.bmp",
     "static/media/Logo_Mexican_Seafood.bmp": "/mylunchbox/static/media/Logo_Mexican_Seafood.394961f7a12a789e5a22.bmp",
     "index.html": "/mylunchbox/index.html",
-    "main.dde66664.css.map": "/mylunchbox/static/css/main.dde66664.css.map",
-    "main.1dbace45.js.map": "/mylunchbox/static/js/main.1dbace45.js.map",
+    "main.de5dc0c9.css.map": "/mylunchbox/static/css/main.de5dc0c9.css.map",
+    "main.c4cf7eee.js.map": "/mylunchbox/static/js/main.c4cf7eee.js.map",
     "787.dffeb26c.chunk.js.map": "/mylunchbox/static/js/787.dffeb26c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dde66664.css",
-    "static/js/main.1dbace45.js"
+    "static/css/main.de5dc0c9.css",
+    "static/js/main.c4cf7eee.js"
   ]
 }
